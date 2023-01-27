@@ -1,0 +1,113 @@
+nav {
+    display:flex;
+    background:radial-gradient(ellipse at top, #e66465, transparent),radial-gradient(ellipse at bottom, #ff9710, transparent);
+    height:40px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+bouton {
+    background-color:gray;
+    height:20px;
+    margin-top:6px;
+    margin-right:70px;
+    margin-left:70px;
+    border-radius:15px;
+    padding:4px;
+}
+
+bouton3 {
+    background-color:gray;
+    height:20px;
+    margin-top:6px;
+    margin-right:70px;
+    margin-left:70px;
+    border-radius:15px;
+    padding:4px;
+    justify-content:center;
+    width:80px;
+}
+
+.txtB {
+    text-decoration:none;
+    color: white;
+    font-family:Gill sans MT;    
+}
+
+bouton2 {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    background-color:gray;
+    height:20px;
+    border-radius:15px;
+    padding:4px;
+    width:45px;
+}
+
+.page {
+    background:linear-gradient(transparent,#ff9710);
+    width:1000px;
+    height:1500px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
+    border:solid #ff9710;
+    margin-top: 10px;
+}
+
+body {
+    background-image:url("./images/fond.jpg")
+}
+
+h1 {
+    font-family:Gill sans MT;
+    color:white;
+}
+
+.txt {
+    background:linear-gradient(transparent,gray,transparent);;
+    padding:8px;
+    border-radius:13px;
+}
+
+.txt2 {
+    background:linear-gradient(transparent,gray,gray,gray,transparent);;
+    padding:8px;
+    border-radius:13px;
+}
+
+p {
+    font-family:Gill sans MT;
+    font-size:20px;
+    color:white;
+}
+
+.adresse {
+    size:250px;
+    border-radius:50px;
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    max-width: 800px;
+}
+
+bouton:hover {
+    border:solid #ff9710 2px;
+}
+
+bouton2:hover {
+    border:solid #ff9710 2px;
+}
+
+bouton3:hover {
+    border:solid #ff9710 2px;
+}
+
+.italiquecentre {
+    font-style:italic;
+    text-align:center;
+}
